@@ -1,2 +1,7 @@
 [build]
-  publish = "."
+  publish = "cyber-kids-project"
+
+[[redirects]]
+  from = "/*"
+  to = "/cyber-kids-project/index.html"
+  status = 200
